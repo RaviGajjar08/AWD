@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+    <!-- Text input -->
+    Name:
+    <input type="text" name="name" required>
+    <br><br>
+
+    <!-- Email input -->
+    Email:
+    <input type="email" name="email" required>
+    <br><br>
+
+    <!-- Password input -->
+    Password:
+    <input type="password" name="password" required minlength="6">
+    <br><br>
+
+    <!-- Number input -->
+    Age:
+    <input type="number" name="age" min="18" max="30" required>
+    <br><br>
+
+    <!-- Date input -->
+    Date of Birth:
+    <input type="date" name="dob" required>
+    <br><br>
+
+    <!-- Radio buttons -->
+    Gender:
+    <input type="radio" name="gender" required> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    <!-- Checkbox -->
+    Skills:
+    <input type="checkbox"> Java
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS
+    <br><br>
+
+    <!-- Select dropdown -->
+    Course:
+    <select required>
+        <option value="">Select</option>
+        <option>Computer Science</option>
+        <option>IT</option>
+        <option>Mechanical</option>
+    </select>
+    <br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
